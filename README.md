@@ -1,6 +1,6 @@
 # Word2Vec-Application
 
-Word2vec is a two-layer neural net that processes text by vectorizing words. Its input is a text corpus,  and its output is a set of vectors: feature vectors that represent words in that corpus. Here the two review data is being used. Hotel Review and Movie Review. The data is available here https://drive.google.com/drive/folders/1D9vNJ9O11JOyXo89-Sl2bsguoSxB59nZ?usp=sharing
+Word2vec is a two-layer neural net that processes text by vectorizing words. Its input is a text corpus,  and its output is a set of vectors: feature vectors that represent words in that corpus. Here the two review data is being used. Hotel Review and Movie Review data are collected from Kaggle. The data is available here https://drive.google.com/drive/folders/1D9vNJ9O11JOyXo89-Sl2bsguoSxB59nZ?usp=sharing
 
 Here we have extracted the words from the data that are contextually similar to the phrase given by the user.  
 
