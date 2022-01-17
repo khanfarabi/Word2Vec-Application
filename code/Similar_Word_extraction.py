@@ -74,7 +74,7 @@ class data_preprocessing:
                                             continue
                                         else:
                                              if len(word3)>3:
-                                                    keep.append(word_lower)
+                                                    keep.append(word3)
                                 if len(keep)>=25:
                                         Words[revid]=keep
                                         revid=revid+1
@@ -106,7 +106,7 @@ class data_preprocessing:
                                             continue
                                         else:
                                              if len(word3)>3:
-                                                    keep.append(word_lower)
+                                                    keep.append(word3)
                                 if len(keep)>=10 and len(keep)<=40:
                                         Words1[rid]=keep
                                         rid=rid+1
