@@ -37,7 +37,7 @@ class data_preprocessing:
                     cn1=0
                     for k in hotel['Negative_Review']:
                         keep=[]
-                        if cn<500:
+                        if cn<5000:
                                 #print(k)
                                 for word in re.findall(r"\w[\w']*", k, flags=flags):
                                     if word.isdigit() or len(word)==1:
@@ -58,7 +58,7 @@ class data_preprocessing:
                                 cn=cn+1
                     for k in hotel['Positive_Review']:
                         keep=[]
-                        if cn1<500:
+                        if cn1<5000:
                                 #print(k)
                                 for word in re.findall(r"\w[\w']*", k, flags=flags):
                                     if word.isdigit() or len(word)==1:
