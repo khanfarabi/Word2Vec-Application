@@ -6,7 +6,7 @@ In IMDB movie data there are 50000 reviews, and in hotel data there are about 5 
 
 # Run the Program
 
-In code folder the following commands needs to run to get the output and data path is needed to be set up:
+In code folder the following commands need to be run to get the output and data path is needed to be set up:
 
 python Similar_Word_extraction.py hotel   #for the hotel review data
 
