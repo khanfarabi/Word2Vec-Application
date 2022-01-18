@@ -302,7 +302,7 @@ class similar_phrase:
 #mwords=similar_phrase.same_words(movie_sent,"movie",movie_d)
 #print("Movie Review")
 #print(mwords)
-print("Enter the option: For the hotel review data : hotel : For the movie review data : movie")
+#print("Enter the option: For the hotel review data : hotel : For #the movie review data : movie")
 import sys
 LL=list(sys.argv[1:])
 
