@@ -25,5 +25,5 @@ Let's say the user input phrase is "movie", and the Word2Vec model is trained wi
 In case hotel review data, if the phrase is 'food', we get the ranked list of the closely related words:
 
 
-['food', 'plate', 'soups ', 'breakfest ', 'parc ', 'tine ',  'cocoa ', 'pouring ']
+['food', 'pizzas ', 'breakfast',  'steak ', 'pasta ', 'cuisine ', 'bananas ', 'desserts ', 'hams ', 'pastries ']
 
