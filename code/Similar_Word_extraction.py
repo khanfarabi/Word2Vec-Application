@@ -230,6 +230,7 @@ class similar_phrase:
                         cv=0
                         for vc in  sorted_sim_map1:
                             if cv<20:
+                              if vc[0].isalnum():
                                 wrd_sim.append(vc[0])
                                 cv=cv+1
                         #print(wrd_sim)
@@ -287,6 +288,7 @@ class similar_phrase:
                         cv=0
                         for vc in  sorted_sim_map1:
                             if cv<20:
+                              if vc[0].isalnum():
                                 wrd_sim.append(vc[0])
                                 cv=cv+1
                         #print(wrd_sim)
