@@ -13,7 +13,10 @@ python Similar_Word_extraction.py hotel   #for the hotel review data
 python Similar_Word_extraction.py movie   #for the movie review data
 
 
-The notebook Word2Vec_Test is available in code folder. Further, the Google Colab link is here: https://colab.research.google.com/drive/15aYA9vx_0T6FpeE1tEwOUyHT7CPIkBgE?usp=sharing  to run the code in Google Colab. The data sets need to be uploaded before running the code here.  
+The notebook Word2Vec_Test is available in code folder. 
+
+
+Further, the Google Colab link is here: https://colab.research.google.com/drive/15aYA9vx_0T6FpeE1tEwOUyHT7CPIkBgE?usp=sharing  to run the code in Google Colab. The data sets need to be uploaded before running the code here.  
 
 # Sample Outcome
 
@@ -27,41 +30,42 @@ In case hotel review data, if the phrase is 'food', we get the ranked list of th
 
 ['food', 'pizzas ', 'breakfast',  'steak ', 'pasta ', 'cuisine ', 'bananas ', 'desserts ', 'hams ', 'pastries ']
 
+
 More examples of output:
 
 
 Movie Review Data:
 
 Phrase:godzilla
-['reese', 'forgive', 'terrible', 'hollywood', 'dominic', 'mean', 'party', 'watershed', 'shaw', 'bart']
+Extracted Similar Word List: ['reese', 'forgive', 'terrible', 'hollywood', 'dominic', 'mean', 'party', 'watershed', 'shaw', 'bart']
 
 
 Phrase:gangster
-['killer', 'kristina', 'ozjeppe', 'country', 'hollywood', 'heart', 'cinematographer', 'forgive', 'comedy', 'masterpiece']
+Extracted Similar Word List: ['killer', 'kristina', 'ozjeppe', 'country', 'hollywood', 'heart', 'cinematographer', 'forgive', 'comedy', 'masterpiece']
 
 
 Phrase:zombie
 
-['terrible', 'party', 'masterpiece', 'country', 'cinematographer', 'hollywood', 'watershed', 'ozjeppe', 'heart', 'forgive']
+Extracted Similar Word List: ['terrible', 'party', 'masterpiece', 'country', 'cinematographer', 'hollywood', 'watershed', 'ozjeppe', 'heart', 'forgive']
 
 
 Phrase: murder
-['killer', 'shaw', 'terrible', 'right', 'musical', 'ozjeppe', 'heart', 'bart', 'hollywood', 'flick']
+Extracted Similar Word List: ['killer', 'shaw', 'terrible', 'right', 'musical', 'ozjeppe', 'heart', 'bart', 'hollywood', 'flick']
 
 
 Hotel Review Data:
 
 Phrase: dinner
-['dinner', 'average', 'buffet', 'shop', 'space', 'breakfast', 'station', 'quirky', 'level', 'good']
+Extracted Similar Word List: ['dinner', 'average', 'buffet', 'shop', 'space', 'breakfast', 'station', 'quirky', 'level', 'good']
 
 
 Phrase: restaurant
-['nice', 'hassle', 'good', 'different', 'issue', 'location', 'lounge', 'excellent', 'great', 'link']
+Extracted Similar Word List: ['nice', 'hassle', 'good', 'different', 'issue', 'location', 'lounge', 'excellent', 'great', 'link']
 
 
 Phrase:cafe
 
-['average', 'buffet', 'view', 'design', 'step', 'amaze', 'wifi', 'overall', 'decor', 'clean']
+Extracted Similar Word List: ['average', 'buffet', 'view', 'design', 'step', 'amaze', 'wifi', 'overall', 'decor', 'clean']
 
 
 
