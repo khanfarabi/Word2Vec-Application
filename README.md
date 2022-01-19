@@ -2,7 +2,10 @@
 
 Word2vec is a two-layer neural net that processes text by vectorizing words. Its input is a text corpus,  and its output is a set of vectors: feature vectors that represent words in that corpus. Here the two review data is being used. Hotel Review and IMDB Movie Review data are collected from Kaggle. The data is available here https://drive.google.com/drive/folders/1D9vNJ9O11JOyXo89-Sl2bsguoSxB59nZ?usp=sharing
 
-In IMDB movie data there are 50000 reviews, and in hotel data there are about 5 million reviews. Here we have extracted the words from the data that are contextually similar to the phrase given by the user.  
+In IMDB movie data there are 50000 reviews, and in hotel data there are about 5 million reviews.
+
+Here we have extracted the words from the data that are contextually similar to the phrase given by the user. We train the Word2Vec model with review text data. We map each word in the text with the vectors using the trained Word2Vec model. After taking the user's input phrase,  we compute the cosine similarity. We measure the cosine similarity between each embedded word and the input phrase. Then we rank the words based on the similarity scores. We represent the first ten closest words to the input phrase. 
+
 
 # Run the Program
 
