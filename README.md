@@ -13,7 +13,7 @@ python Similar_Word_extraction.py hotel   #for the hotel review data
 python Similar_Word_extraction.py movie   #for the movie review data
 
 
-The notebook Word2Vec_Test is available in code folder. 
+The notebook Word2Vec_Test is available in code folder. Further, the Google Colab link is here: https://colab.research.google.com/drive/15aYA9vx_0T6FpeE1tEwOUyHT7CPIkBgE?usp=sharing  to run the code in Google Colab. The data sets need to be uploaded before running the code here.  
 
 # Sample Outcome
 
