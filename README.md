@@ -37,33 +37,46 @@ More examples of output:
 Movie Review Data:
 
 Phrase:godzilla
+
+
 Extracted Similar Word List: ['reese', 'forgive', 'terrible', 'hollywood', 'dominic', 'mean', 'party', 'watershed', 'shaw', 'bart']
 
 
 Phrase:gangster
+
+
 Extracted Similar Word List: ['killer', 'kristina', 'ozjeppe', 'country', 'hollywood', 'heart', 'cinematographer', 'forgive', 'comedy', 'masterpiece']
 
 
 Phrase:zombie
 
+
 Extracted Similar Word List: ['terrible', 'party', 'masterpiece', 'country', 'cinematographer', 'hollywood', 'watershed', 'ozjeppe', 'heart', 'forgive']
 
 
 Phrase: murder
+
+
 Extracted Similar Word List: ['killer', 'shaw', 'terrible', 'right', 'musical', 'ozjeppe', 'heart', 'bart', 'hollywood', 'flick']
 
 
 Hotel Review Data:
 
 Phrase: dinner
+
+
 Extracted Similar Word List: ['dinner', 'average', 'buffet', 'shop', 'space', 'breakfast', 'station', 'quirky', 'level', 'good']
 
 
 Phrase: restaurant
+
+
 Extracted Similar Word List: ['nice', 'hassle', 'good', 'different', 'issue', 'location', 'lounge', 'excellent', 'great', 'link']
 
 
 Phrase:cafe
+
+
 
 Extracted Similar Word List: ['average', 'buffet', 'view', 'design', 'step', 'amaze', 'wifi', 'overall', 'decor', 'clean']
 
