@@ -27,3 +27,41 @@ In case hotel review data, if the phrase is 'food', we get the ranked list of th
 
 ['food', 'pizzas ', 'breakfast',  'steak ', 'pasta ', 'cuisine ', 'bananas ', 'desserts ', 'hams ', 'pastries ']
 
+More examples of output:
+
+
+Movie Review Data:
+
+Phrase:godzilla
+['reese', 'forgive', 'terrible', 'hollywood', 'dominic', 'mean', 'party', 'watershed', 'shaw', 'bart']
+
+
+Phrase:gangster
+['killer', 'kristina', 'ozjeppe', 'country', 'hollywood', 'heart', 'cinematographer', 'forgive', 'comedy', 'masterpiece']
+
+
+Phrase:zombie
+
+['terrible', 'party', 'masterpiece', 'country', 'cinematographer', 'hollywood', 'watershed', 'ozjeppe', 'heart', 'forgive']
+
+
+Phrase: murder
+['killer', 'shaw', 'terrible', 'right', 'musical', 'ozjeppe', 'heart', 'bart', 'hollywood', 'flick']
+
+
+Hotel Review Data:
+
+Phrase: dinner
+['dinner', 'average', 'buffet', 'shop', 'space', 'breakfast', 'station', 'quirky', 'level', 'good']
+
+
+Phrase: restaurant
+['nice', 'hassle', 'good', 'different', 'issue', 'location', 'lounge', 'excellent', 'great', 'link']
+
+
+Phrase:cafe
+
+['average', 'buffet', 'view', 'design', 'step', 'amaze', 'wifi', 'overall', 'decor', 'clean']
+
+
+
